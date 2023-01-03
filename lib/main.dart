@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:rive_test/custom_homepage.dart';
+import 'package:rive_test/progress_homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const CustomHomePage(),
+      home: const ProgressHomePage(),
     );
   }
 }
